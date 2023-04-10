@@ -1614,8 +1614,6 @@ li {
           justify-content: center;
   width: 1.5em;
   height: 1.5em;
-  cursor: -webkit-grab;
-  cursor: grab;
   position: absolute;
   right: 0.5em;
   top: 50%;
