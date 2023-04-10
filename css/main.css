@@ -1476,6 +1476,9 @@ li {
   border: 2px dashed rgba(82, 74, 62, 0.15);
 }
 .fileDrop__select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;

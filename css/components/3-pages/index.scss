@@ -158,6 +158,7 @@
   border: 2px dashed rgba($gray, 0.15);
 
   &__select {
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
