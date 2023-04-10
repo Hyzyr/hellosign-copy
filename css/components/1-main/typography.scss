@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: url(../../../font/AtlasGrotesk-Regular-Web-vflk7bxjs.woff2)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: url(../../../font/AtlasGrotesk-Medium-Web-vfl38XiTL.woff2)
+    format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SharpGrotesk Medium";
+  src: url(../../../font/ebee194a9b773f166dc16096f8614aaa.woff2)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "SharpGroteskDBBook20";
+  src: url(https://cdn.hellosign.com/1.146.0/build/06bbbd9bd32ea0789eb50cb1148c409d.ttf)
+    format("truetype");
+}
+
+/* Typography */
+h1 {
+  font-size: 52px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 34px;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+p {
+  line-height: 1.8em;
+}

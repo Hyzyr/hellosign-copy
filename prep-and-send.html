@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="images/logo-small.ico" />
+    <title>Sign documents online | Dropbox</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header start
+    =========================================== -->
+      <header class="header header--border" id="header">
+        <div class="header__inner">
+          <div class="header__inner-title">
+            <button class="button button--ico">
+              <div class="custIcon custIcon--cross"></div>
+            </button>
+            <span>Send for signature</span>
+          </div>
+          <div class="header__steps">
+            <div class="header__steps-item active">
+              <div class="header__steps-item-ico">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  width="24"
+                  height="24"
+                  focusable="false"
+                >
+                  <path
+                    d="m17.341 6.03-1.372-1.37A2.236 2.236 0 0 0 14.38 4H5.5v16H18V7.621a2.264 2.264 0 0 0-.659-1.59ZM7 18.5v-13h7V8h2.5v10.5H7Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <div class="header__steps-item-title">Select documents</div>
+            </div>
+            <div class="header__steps-item">
+              <div class="header__steps-item-ico">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  width="24"
+                  height="24"
+                  focusable="false"
+                >
+                  <path
+                    d="M21 17.5h-2v-2h-1.5v2h-2V19h2v2H19v-2h2v-1.5ZM9.25 13h5.5a2.746 2.746 0 0 1 2.12 1h1.75a4.25 4.25 0 0 0-3.72-2.489A4.818 4.818 0 0 0 15.5 9c0-2.287-1.036-3.694-2.864-3.952A4.25 4.25 0 0 0 12 5a4.707 4.707 0 0 0-.636.048C9.536 5.306 8.5 6.713 8.5 9a4.822 4.822 0 0 0 .6 2.508A4.25 4.25 0 0 0 5 15.75V19h9v-1.5H6.5v-1.75A2.753 2.753 0 0 1 9.25 13Zm2.572-1.504h-.031c-.882-.05-1.719-.45-1.719-2.494s.838-2.446 1.719-2.494h.031c.06-.008.119-.008.178-.008s.118 0 .178.004h.031c.882.05 1.719.45 1.719 2.494s-.838 2.446-1.719 2.494h-.031c-.06.008-.119.008-.178.008s-.118 0-.178-.004Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <div class="header__steps-item-title">Add signers</div>
+            </div>
+            <div class="header__steps-item">
+              <div class="header__steps-item-ico">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  width="24"
+                  height="24"
+                  focusable="false"
+                >
+                  <path
+                    d="M21 17.5h-2v-2h-1.5v2h-2V19h2v2H19v-2h2v-1.5ZM8.5 10H11v5h1.5v-5H15V8.5H8.5V10Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M6 6h11.5v8H19V4.5H4.5V19H14v-1.5H6V6Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <div class="header__steps-item-title">Place fields</div>
+            </div>
+            <div class="header__steps-item">
+              <div class="header__steps-item-ico">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  width="24"
+                  height="24"
+                  focusable="false"
+                >
+                  <path
+                    d="M12 4c-5.159 0-8 2.841-8 8s2.841 8 8 8 8-2.841 8-8-2.841-8-8-8Zm0 14.5c-4.374 0-6.5-2.126-6.5-6.5 0-4.374 2.126-6.5 6.5-6.5 4.374 0 6.5 2.126 6.5 6.5 0 4.374-2.126 6.5-6.5 6.5Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="m11 13.44-1.97-1.97-1.06 1.06L11 15.56l5.03-5.03-1.06-1.06L11 13.44Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <div class="header__steps-item-title">Review and send</div>
+            </div>
+          </div>
+          <div class="header__inner-info">
+            <button class="button button--ico">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                width="24"
+                height="24"
+                focusable="false"
+              >
+                <path
+                  d="M11.75 4C6.535 4 4 6.535 4 11.75s2.535 7.75 7.75 7.75 7.75-2.535 7.75-7.75S16.965 4 11.75 4Zm0 14c-4.322 0-6.25-1.927-6.25-6.25 0-4.322 1.928-6.25 6.25-6.25 4.323 0 6.25 1.928 6.25 6.25 0 4.323-1.927 6.25-6.25 6.25Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M11.75 14.5a.75.75 0 1 0 .75.75.71.71 0 0 0-.75-.75Zm.007-7h-.007A2.76 2.76 0 0 0 9 10.26v.24h1.5v-.24A1.256 1.256 0 0 1 11.75 9c.866 0 1.25.386 1.25 1.25 0 .887-.443 1.074-.588 1.136A2.244 2.244 0 0 0 11 13.428v.166a3.01 3.01 0 0 1 1.5 0v-.166a.75.75 0 0 1 .496-.66A2.532 2.532 0 0 0 14.5 10.25a2.55 2.55 0 0 0-2.743-2.75Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- header end
+    =========================================== -->
+      <div class="main main--noside">
+        <div class="main__inner">
+          <section class="uploadSection">
+            <div class="uploadSection__header">
+              <div class="uploadSection__header-title">
+                Select documents to be signed
+              </div>
+              <div class="uploadSection__header-buttons">
+                <div class="uploadSection__header-buttons-main">
+                  <button class="button button--border">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                      role="presentation"
+                    >
+                      <path
+                        d="M11 8.244V16h1.5V8.244l3.485 3.3 1.03-1.088-5.265-4.989-5.266 4.989 1.032 1.088L11 8.244Zm8 9.256H4.5V19H19v-1.5Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                    <span>Upload</span>
+                  </button>
+                </div>
+                <div class="uploadSection__header-buttons-group">
+                  <button class="button button--default" disabled>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                      role="presentation"
+                    >
+                      <path
+                        d="m17.341 6.03-1.372-1.37A2.236 2.236 0 0 0 14.38 4H5.5v16H18v-3h-1.5v1.5H15V20h-1.5v-1.5H10V20H8.5v-1.5H7v-13h7V8h2.5v2.5H18V7.621a2.264 2.264 0 0 0-.659-1.59Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        d="M16.5 15.5H18V12h-1.5v3.5Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                    <span>Add template</span>
+                  </button>
+                  <button class="button button--default">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                      role="presentation"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8 5 4 7.5 8 10l-4 2.5L8 15l4-2.5 4 2.5 4-2.5-4-2.5 4-2.466L16 5l-4 2.5L8 5Zm4 2.5 4 2.5-4 2.5L8 10l4-2.5Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        d="m8 16.5 4-2.5 4 2.5-4 2.5-4-2.5Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                    <span>Dropbox</span>
+                  </button>
+                  <button class="button button--default">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      role="presentation"
+                      focusable="false"
+                      width="24"
+                      height="24"
+                    >
+                      <path
+                        d="m5.21 17.252.705 1.219c.147.256.358.458.605.605l2.52-4.362H4c0 .284.073.568.22.824l.99 1.714Z"
+                        fill="#0066DA"
+                      ></path>
+                      <path
+                        d="M12 9.582 9.48 5.22a1.664 1.664 0 0 0-.605.605L4.22 13.889a1.66 1.66 0 0 0-.22.825h5.04L12 9.582Z"
+                        fill="#00AC47"
+                      ></path>
+                      <path
+                        d="M17.48 19.076c.247-.147.458-.349.605-.605l.293-.504 1.402-2.429c.147-.256.22-.54.22-.824h-5.04l1.072 2.107 1.448 2.255Z"
+                        fill="#EA4335"
+                      ></path>
+                      <path
+                        d="m12 9.582 2.52-4.362a1.611 1.611 0 0 0-.825-.22h-3.39a1.7 1.7 0 0 0-.825.22L12 9.582Z"
+                        fill="#00832D"
+                      ></path>
+                      <path
+                        d="M14.96 14.714H9.04l-2.52 4.362c.247.146.532.22.825.22h9.31c.293 0 .578-.083.825-.22l-2.52-4.362Z"
+                        fill="#2684FC"
+                      ></path>
+                      <path
+                        d="m17.453 9.857-2.328-4.032a1.664 1.664 0 0 0-.605-.605L12 9.582l2.96 5.132h5.03a1.66 1.66 0 0 0-.22-.825l-2.317-4.032Z"
+                        fill="#FFBA00"
+                      ></path>
+                    </svg>
+                    <span>Google Drive</span>
+                  </button>
+                  <button class="button button--default button--ico">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M12 10a1.857 1.857 0 0 0-2 2 1.857 1.857 0 0 0 2 2 1.857 1.857 0 0 0 2-2 1.857 1.857 0 0 0-2-2Zm6 0a1.857 1.857 0 0 0-2 2 1.858 1.858 0 0 0 2 2 1.857 1.857 0 0 0 2-2 1.857 1.857 0 0 0-2-2ZM6 10a1.857 1.857 0 0 0-2 2 1.857 1.857 0 0 0 2 2 1.856 1.856 0 0 0 2-2 1.857 1.857 0 0 0-2-2Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="uploadSection__body">
+              <div class="fileDrop">
+                <div class="fileDrop__select">
+                  <div class="fileDrop__select-ico">
+                    <img src="images/icons/file.svg" alt="file" />
+                  </div>
+                  <p>Drop documents here to get signed</p>
+                  <div class="select toggleActive">
+                    <input type="hidden" name="" />
+                    <div class="select__selected">Upload</div>
+                    <ul class="select__options">
+                      <li class="select__item">
+                        <div class="select__item-ico">
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            width="24"
+                            height="24"
+                            focusable="false"
+                          >
+                            <path
+                              d="M4 5.5v8.25A2.25 2.25 0 0 0 6.25 16H11v1.5H8.5V19H15v-1.5h-2.5V16h4.75a2.25 2.25 0 0 0 2.25-2.25V5.5H4Zm14 8.25a.75.75 0 0 1-.75.75h-11a.75.75 0 0 1-.75-.75V7H18v6.75Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="M13.5 9H10v3.5h3.5V9Z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="select__item-title">Computer</div>
+                      </li>
+                      <li class="select__item">
+                        <div class="select__item-ico">
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            width="24"
+                            height="24"
+                            focusable="false"
+                          >
+                            <path
+                              d="m17.341 6.03-1.372-1.37A2.265 2.265 0 0 0 14.38 4H5.5v16H18V7.621a2.265 2.265 0 0 0-.659-1.59ZM7 18.5v-13h7V8h2.5v10.5H7Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="m8.89 12.71 1.04 1.08L11 12.762V16.5h1.5v-3.739l1.07 1.03 1.04-1.082-2.86-2.75-2.86 2.75Z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="select__item-title">Template</div>
+                      </li>
+                      <li class="select__item">
+                        <div class="select__item-ico">
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            width="24"
+                            height="24"
+                            focusable="false"
+                            role="presentation"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M8 5 4 7.5 8 10l-4 2.5L8 15l4-2.5 4 2.5 4-2.5-4-2.5 4-2.466L16 5l-4 2.5L8 5Zm4 2.5 4 2.5-4 2.5L8 10l4-2.5Z"
+                              fill="currentColor"
+                            ></path>
+                            <path
+                              d="m8 16.5 4-2.5 4 2.5-4 2.5-4-2.5Z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="select__item-title">Dropbox</div>
+                      </li>
+                      <li class="select__item">
+                        <div class="select__item-ico">
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            role="presentation"
+                            focusable="false"
+                            width="24"
+                            height="24"
+                          >
+                            <path
+                              d="m5.21 17.252.705 1.219c.147.256.358.458.605.605l2.52-4.362H4c0 .284.073.568.22.824l.99 1.714Z"
+                              fill="#0066DA"
+                            ></path>
+                            <path
+                              d="M12 9.582 9.48 5.22a1.664 1.664 0 0 0-.605.605L4.22 13.889a1.66 1.66 0 0 0-.22.825h5.04L12 9.582Z"
+                              fill="#00AC47"
+                            ></path>
+                            <path
+                              d="M17.48 19.076c.247-.147.458-.349.605-.605l.293-.504 1.402-2.429c.147-.256.22-.54.22-.824h-5.04l1.072 2.107 1.448 2.255Z"
+                              fill="#EA4335"
+                            ></path>
+                            <path
+                              d="m12 9.582 2.52-4.362a1.611 1.611 0 0 0-.825-.22h-3.39a1.7 1.7 0 0 0-.825.22L12 9.582Z"
+                              fill="#00832D"
+                            ></path>
+                            <path
+                              d="M14.96 14.714H9.04l-2.52 4.362c.247.146.532.22.825.22h9.31c.293 0 .578-.083.825-.22l-2.52-4.362Z"
+                              fill="#2684FC"
+                            ></path>
+                            <path
+                              d="m17.453 9.857-2.328-4.032a1.664 1.664 0 0 0-.605-.605L12 9.582l2.96 5.132h5.03a1.66 1.66 0 0 0-.22-.825l-2.317-4.032Z"
+                              fill="#FFBA00"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="select__item-title">Google Drive</div>
+                      </li>
+                      <li class="select__item">
+                        <div class="select__item-ico">
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            role="presentation"
+                            focusable="false"
+                            width="24"
+                            height="24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M9.852 12.255a3.106 3.106 0 0 1 5.852 1.457 3.107 3.107 0 0 1-5.852 1.456 3.106 3.106 0 0 1-5.85-1.405H4V8.61a.622.622 0 0 1 1.244 0v2.617a3.106 3.106 0 0 1 4.608 1.03Zm-4.608 1.457a1.864 1.864 0 1 0 3.727 0 1.864 1.864 0 0 0-3.727 0Zm5.49 0a1.864 1.864 0 1 0 3.726 0 1.864 1.864 0 0 0-3.727 0Z"
+                              fill="#0075C9"
+                            ></path>
+                            <path
+                              d="m18.292 13.714 1.591 2.127a.622.622 0 0 1-.994.747l-1.373-1.836-1.374 1.836a.622.622 0 0 1-.994-.747l1.591-2.127-1.59-2.127a.622.622 0 0 1 .993-.746l1.374 1.835 1.373-1.836a.622.622 0 0 1 .994.747l-1.591 2.127Z"
+                              fill="#0075C9"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="select__item-title">Box</div>
+                      </li>
+                      <li class="select__item">
+                        <div class="select__item-ico">
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            role="presentation"
+                            focusable="false"
+                            width="24"
+                            height="24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M6.257 7.109H7.75a.17.17 0 0 0 .157-.16V5.313c.007-.26.06-.518.158-.758l.039-.12-2.908 2.913.158-.08c.235-.12.55-.16.903-.16Zm11.473-.28c-.118-.638-.471-.917-.825-1.037a6.521 6.521 0 0 0-1.65-.4c-.747-.08-1.533-.12-2.083-.12-.157-.438-.393-.917-1.296-1.156-.629-.16-1.768-.12-2.122-.08a1.35 1.35 0 0 0-.904.479c-.157.16-.275.598-.275.878v1.556c0 .48-.314.838-.864.838H6.375a1.952 1.952 0 0 0-.746.12c-.15.112-.283.247-.393.4-.197.279-.236.598-.236.957.008.268.035.534.079.798.039.4.471 3.033.864 3.912.157.359.275.478.59.638.707.32 2.317.639 3.103.758.747.08 1.258.32 1.533-.279.032-.122.071-.242.117-.36a6.39 6.39 0 0 0 .276-1.915c0-.04.078-.04.078 0 0 .36-.079 1.557.825 1.876.354.12 1.1.24 1.847.32.668.079 1.179.358 1.179 2.114 0 1.078-.236 1.238-1.376 1.238-.943 0-1.296.04-1.296-.759 0-.598.59-.558 1.06-.558.197 0 .04-.16.04-.52 0-.398.236-.598 0-.598-1.532-.04-2.436 0-2.436 1.956 0 1.796.668 2.115 2.868 2.115 1.729 0 2.318-.04 3.025-2.275.157-.439.472-1.796.668-4.03.157-1.478-.117-5.788-.314-6.866Zm-2.986 4.75a2.205 2.205 0 0 0-.51.04h-.08a.04.04 0 0 1-.04-.04v-.04c.08-.4.276-.878.866-.878.628.04.785.599.785 1.037v.04a.039.039 0 0 1-.039.04c-.04 0-.04 0-.04-.04a5.795 5.795 0 0 0-.942-.16Z"
+                              fill="#00A82D"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="select__item-title">Evernote</div>
+                      </li>
+                      <li class="select__item">
+                        <div class="select__item-ico">
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            role="presentation"
+                            focusable="false"
+                            width="24"
+                            height="24"
+                          >
+                            <path
+                              d="m13.666 13.918 3.303-3.159a5 5 0 0 0-9.02-1.507c.05 0 5.717 4.666 5.717 4.666Z"
+                              fill="#0364B8"
+                            ></path>
+                            <path
+                              d="M10.101 9.847A3.98 3.98 0 0 0 8 9.251l-.051.001a3.998 3.998 0 0 0-3.23 6.285l4.947-.62 3.794-3.058-3.36-2.012Z"
+                              fill="#0078D4"
+                            ></path>
+                            <path
+                              d="M16.969 10.76a3.24 3.24 0 0 0-1.508.258l-2.001.84 2.206 2.726 3.945.96a3.25 3.25 0 0 0-2.642-4.785Z"
+                              fill="#1490DF"
+                            ></path>
+                            <path
+                              d="M4.719 15.537a3.994 3.994 0 0 0 3.28 1.714h8.75a3.249 3.249 0 0 0 2.862-1.708L13.46 11.86l-8.741 3.678Z"
+                              fill="#28A8EA"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="select__item-title">OneDrive</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="fileDrop__loading">
+                  <div class="loadingLine">
+                    <div class="loadingLine__line"></div>
+                    <div class="loadingLine__text">Uploading files...</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="dragList">
+            <div class="dragList__title">
+              <h6>Selected documents</h6>
+              <p>Drag documents to reorder them</p>
+            </div>
+            <div class="dragList__list">
+              <ul>
+                <li class="dragList__list-item">
+                  <div class="dragList__list-item-drag">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M9.248 7.962a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Zm5.505 0a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Zm-4.075 5.469a2.022 2.022 0 1 1-2.86-2.86 2.022 2.022 0 0 1 2.86 2.86Zm4.074.592a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Zm-4.074 5.385a2.022 2.022 0 1 1-2.86-2.86 2.022 2.022 0 0 1 2.86 2.86Zm4.074.592a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="dragList__list-item-ico">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard src-hellospa-components-prep-and-send-file-uploader-styles__fileIcon--1pIq5"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                      data-qa-ref="file-icon"
+                    >
+                      <path
+                        d="m17.341 6.03-1.372-1.37A2.236 2.236 0 0 0 14.38 4H5.5v16H18V7.621a2.264 2.264 0 0 0-.659-1.59ZM7 18.5v-13h7V8h2.5v10.5H7Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>screenShot-2022-2-2-2323.png</span>
+                  <div class="dragList__list-item-delete">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M19.5 7h-4v-.75A2.25 2.25 0 0 0 13.25 4h-2.997a2.25 2.25 0 0 0-2.25 2.255V7H4v1.5h1.591l1.245 9.541A2.256 2.256 0 0 0 9.067 20h5.366a2.256 2.256 0 0 0 2.231-1.959L17.908 8.5H19.5V7Zm-9.997-.75a.75.75 0 0 1 .75-.75h2.997a.75.75 0 0 1 .75.75V7H9.505l-.002-.75Zm5.674 11.595a.75.75 0 0 1-.744.655H9.067a.75.75 0 0 1-.744-.654L7.104 8.5h9.292l-1.219 9.345Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </li>
+                <li class="dragList__list-item">
+                  <div class="dragList__list-item-drag">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M9.248 7.962a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Zm5.505 0a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Zm-4.075 5.469a2.022 2.022 0 1 1-2.86-2.86 2.022 2.022 0 0 1 2.86 2.86Zm4.074.592a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Zm-4.074 5.385a2.022 2.022 0 1 1-2.86-2.86 2.022 2.022 0 0 1 2.86 2.86Zm4.074.592a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="dragList__list-item-ico">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard src-hellospa-components-prep-and-send-file-uploader-styles__fileIcon--1pIq5"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                      data-qa-ref="file-icon"
+                    >
+                      <path
+                        d="m17.341 6.03-1.372-1.37A2.236 2.236 0 0 0 14.38 4H5.5v16H18V7.621a2.264 2.264 0 0 0-.659-1.59ZM7 18.5v-13h7V8h2.5v10.5H7Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>screenShot-2022-2-2-2323.png</span>
+                  <div class="dragList__list-item-delete">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M19.5 7h-4v-.75A2.25 2.25 0 0 0 13.25 4h-2.997a2.25 2.25 0 0 0-2.25 2.255V7H4v1.5h1.591l1.245 9.541A2.256 2.256 0 0 0 9.067 20h5.366a2.256 2.256 0 0 0 2.231-1.959L17.908 8.5H19.5V7Zm-9.997-.75a.75.75 0 0 1 .75-.75h2.997a.75.75 0 0 1 .75.75V7H9.505l-.002-.75Zm5.674 11.595a.75.75 0 0 1-.744.655H9.067a.75.75 0 0 1-.744-.654L7.104 8.5h9.292l-1.219 9.345Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </li>
+                <li class="dragList__list-item">
+                  <div class="dragList__list-item-drag">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M9.248 7.962a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Zm5.505 0a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Zm-4.075 5.469a2.022 2.022 0 1 1-2.86-2.86 2.022 2.022 0 0 1 2.86 2.86Zm4.074.592a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Zm-4.074 5.385a2.022 2.022 0 1 1-2.86-2.86 2.022 2.022 0 0 1 2.86 2.86Zm4.074.592a2.022 2.022 0 1 0 0-4.045 2.022 2.022 0 0 0 0 4.045Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="dragList__list-item-ico">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard src-hellospa-components-prep-and-send-file-uploader-styles__fileIcon--1pIq5"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                      data-qa-ref="file-icon"
+                    >
+                      <path
+                        d="m17.341 6.03-1.372-1.37A2.236 2.236 0 0 0 14.38 4H5.5v16H18V7.621a2.264 2.264 0 0 0-.659-1.59ZM7 18.5v-13h7V8h2.5v10.5H7Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>screenShot-2022-2-2-2323.png</span>
+                  <div class="dragList__list-item-delete">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M19.5 7h-4v-.75A2.25 2.25 0 0 0 13.25 4h-2.997a2.25 2.25 0 0 0-2.25 2.255V7H4v1.5h1.591l1.245 9.541A2.256 2.256 0 0 0 9.067 20h5.366a2.256 2.256 0 0 0 2.231-1.959L17.908 8.5H19.5V7Zm-9.997-.75a.75.75 0 0 1 .75-.75h2.997a.75.75 0 0 1 .75.75V7H9.505l-.002-.75Zm5.674 11.595a.75.75 0 0 1-.744.655H9.067a.75.75 0 0 1-.744-.654L7.104 8.5h9.292l-1.219 9.345Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <div class="pagination">
+            <button class="button button--primary"><span>Next</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="js/customSelect.js"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
